@@ -5,9 +5,7 @@ apikey = ""
 
 p = PushBullet(apikey)
 
-weechat.register("pushbullet", "kekskurse", "1.0", "GPL3", "Test 
-Skript", "", "")
-weechat.prnt("", "Hallo, von einem python Skript!")
+weechat.register("pushbullet", "kekskurse", "1.0", "MIT", "Send Pushbullet Notitifactions for hilights and private Messages in Weechat", "", "")
 
 
 def notify_show(data, bufferp, uber_empty, tagsn, isdisplayed, 
